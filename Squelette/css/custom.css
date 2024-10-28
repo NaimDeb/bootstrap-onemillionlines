@@ -30,6 +30,11 @@ h3 {
   font-style: normal;
 }
 
+p {
+  font-size: large;
+  text-align: center;
+}
+
 header {
   background-color: var(--black);
   display: flex;
@@ -63,14 +68,17 @@ nav a:hover {
   width: 1200px;
 }
 
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
 main > section:first-of-type {
   background-image: url("../images/hero-image.jpg");
   display: flex;
   justify-content: center;
   padding: 4rem 0;
   color: var(--white);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
 
   h1 {
     font-size: 4.5rem;
@@ -101,6 +109,128 @@ main > section:first-of-type {
     }
   }
 }
+
+.separateur-small {
+  background-color: var(--primary-color);
+  width: 8rem;
+  height: 1px;
+  margin: 1rem auto;
+}
+
+/* Section 2 */
+#who {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+
+  img {
+    margin: 1rem 0;
+  }
+
+  h2 {
+    color: var(--primary-color);
+    font-size: xx-large;
+  }
+
+  p {
+    font-size: larger;
+  }
+
+  p span {
+    color: var(--primary-color);
+  }
+}
+
+/* Section 3 */
+
+#get-involved {
+  background-color: #f5f5f5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+
+  h2 {
+    color: var(--primary-color);
+    font-size: xx-large;
+  }
+
+  .involve-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    i {
+      background-color: #222222;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 100%;
+      color: var(--secondary-color);
+      text-align: center;
+      line-height: 6rem;
+      font-size: 3.2rem;
+    }
+
+    h3 {
+      color: var(--primary-color);
+      font-size: x-large;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    p {
+      margin: 1rem 0;
+      font-size: larger;
+    }
+
+    a {
+      border: 1px rgba(128, 128, 128, 0.61) solid;
+      padding: 0.4rem 0.5rem;
+      background-color: var(--white);
+      color: var(--primary-color);
+      border-radius: 4px;
+    }
+  }
+}
+
+/* Footer */
+
+footer{
+  background-color: var(--primary-color);
+  height: 15EM;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  div{
+    
+    position: absolute;
+    bottom: 3rem;
+
+
+  }
+
+}
+
+#back-to-top{
+  position: sticky;
+  left:100%;
+  bottom: 50%;
+  width: 2rem;
+  height: 2rem;
+  
+  
+  background-color: #222222;
+  border-radius: 100%;
+  font-size: xx-large;
+
+  
+}
+
 
 /* Responsive Styling */
 
