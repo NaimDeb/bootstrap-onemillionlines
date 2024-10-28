@@ -72,6 +72,17 @@ nav a:hover {
   width: 1200px;
 }
 
+.hamburger{
+  all: unset;
+  color: white;
+  font-size: 1.15rem;
+  border: #ffffff3a 1px solid;
+  border-radius: 3px;
+  padding: 5px;
+
+  display: none;
+}
+
 main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.2;
@@ -329,6 +340,8 @@ footer {
     max-width: 100%;
     margin: 2rem 0;
   }
+
+
 
   
 
